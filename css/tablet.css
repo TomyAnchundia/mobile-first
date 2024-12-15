@@ -1,0 +1,40 @@
+/*
+media queries son los styles que se aplican
+dependiendo de las reglas 
+en este caso es para cuando los dispositivos son 
+mas grandes de 930px
+*/
+
+.main-tables-container {
+    display: flex;
+    width: 930px;
+    margin: 0 auto;
+}
+.container-cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
+}
+
+.plans-container--slider {
+    justify-content: center;
+}
+
+footer .left ul {
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer .right {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.right p {
+  font-size: 1.2rem;
+}
+
